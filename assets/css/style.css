@@ -178,7 +178,6 @@
   .navbar {
     padding: 5px 1rem;
     height: auto;
-    border-bottom: 1px solid #cacaca;
   }
   .gambar {
     float: none;
@@ -197,6 +196,10 @@
     font-size: 26px;
     line-height: 2rem;
     text-align: center;
+  }
+
+  .btn2 {
+    margin-left: 0;
   }
 
   .footer {
