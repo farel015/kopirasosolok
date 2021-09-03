@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
+
+.navbar {
+  padding: 0 10rem;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+}
+
+.logo {
+  text-decoration: none;
+  color: rgb(10, 153, 65);
+  font-size: 30px;
+  font-weight: 400;
+  transition: 200ms;
+}
+
+.logo:hover {
+  color: rgb(13, 170, 73);
+  transition: 200ms;
+}
+
+.link {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+  margin-right: 4rem;
+  font-weight: 500;
+  font-size: 14px;
+  transition: 200ms;
+}
+
+.link:hover {
+  color: rgb(10, 153, 65);
+  transition: 300ms;
+}
+
+.dropdown-menu {
+  min-width: 5px;
+}
+
+.home {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 30px;
+  word-spacing: 0.3rem;
+  font-weight: 400;
+  color: #6e7177;
+  font-size: 16px;
+  padding: 2rem 10rem;
+  min-height: 900px;
+  background-color: rgb(255, 255, 255);
+}
+
+.judulhome {
+  line-height: 47px;
+  padding-top: 6rem;
+  padding-right: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #373737;
+}
+
+.gambar {
+  width: 350px;
+  margin-top: 3rem;
+  float: right;
+}
+.footer {
+  padding: 6rem 10rem;
+  background-color: rgb(10, 153, 65);
+}
+
+.judulfooter {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 400;
+  transition: 200ms;
+}
+
+.judulfooter:hover {
+  color: #cacaca;
+}
+.textfooter {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ketfooter {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ketfooter:hover {
+  color: rgb(228, 228, 228);
+  text-decoration: none;
+}
+
+.copyright {
+  width: 100%;
+  min-height: 50px;
+  font-size: 14px;
+  padding: 1rem;
+  background-color: rgb(9, 114, 49);
+  font-family: "Nunito Sans", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.btn1 {
+  margin-top: 2rem;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 1px 14px #33e67a;
+  -moz-box-shadow: 0px 1px 14px #33e67a;
+  box-shadow: 0px 1px 20px #33e67a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  background: rgb(10, 153, 65);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: 300ms;
+}
+
+.btn1:hover {
+  background: rgb(12, 168, 72);
+  box-shadow: 0px 1px 24px #33e67a;
+  color: #ffffff;
+  transition: 200ms;
+  text-decoration: none;
+}
+
+.btn2 {
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border: 1px solid rgb(10, 153, 65);
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 14px;
+  background: transparent;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: 300ms;
+}
+
+.btn2:hover {
+  color: rgb(112, 112, 112);
+  transition: 200ms;
+  text-decoration: none;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cacaca;
+}
+
+@media screen and (max-device-width: 480px) {
+  .navbar {
+    padding: 5px 1rem;
+    height: auto;
+    border-bottom: 1px solid #cacaca;
+  }
+
+  .footer {
+    padding: 1rem 1rem;
+  }
+  .textfooter {
+    font-size: 13px;
+  }
+  .ketfooter {
+    font-size: 10px;
+  }
+}
