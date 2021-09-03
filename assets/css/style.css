@@ -180,21 +180,23 @@
     height: auto;
   }
   .gambar {
+    align-items: center;
     float: none;
-    width: 200px;
-    padding: 1rem;
+    width: 300px;
+    padding: 1rem 1rem;
     margin-top: 1rem;
   }
   .home {
-    padding: 1rem;
-    font-size: 16px;
+    padding: 1rem 1rem;
+    font-size: 14px;
+    word-spacing: 0;
     line-height: 1.5rem;
-    text-align: center;
+    text-align: justify;
   }
   .judulhome {
     padding: 1rem 1rem;
-    font-size: 26px;
-    line-height: 2rem;
+    font-size: 20px;
+    line-height: 1.5rem;
     text-align: center;
   }
 
