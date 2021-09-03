@@ -180,12 +180,29 @@
     height: auto;
     border-bottom: 1px solid #cacaca;
   }
+  .gambar {
+    float: none;
+    width: 200px;
+    padding: 1rem;
+  }
+  .home {
+    padding: 1rem;
+    font-size: 16px;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .judulhome {
+    padding: 1rem 1rem;
+    font-size: 26px;
+    line-height: 2rem;
+    text-align: center;
+  }
 
   .footer {
-    padding: 1rem 1rem;
+    padding: 3rem 1rem;
   }
   .textfooter {
-    font-size: 13px;
+    font-size: 10px;
   }
   .ketfooter {
     font-size: 10px;
