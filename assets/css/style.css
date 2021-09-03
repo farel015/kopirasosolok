@@ -174,7 +174,7 @@
   background: #cacaca;
 }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 680px) {
   .navbar {
     padding: 5px 1rem;
     height: auto;
