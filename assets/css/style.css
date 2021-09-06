@@ -200,11 +200,11 @@
     margin-left: auto;
     margin-right: auto;
     float: none;
-    width: 250px;
+    width: 180px;
     margin-top: 1rem;
   }
   .home {
-    width: auto;
+    width: 100%;
     padding: 1rem 1rem;
     font-size: 14px;
     word-spacing: 0;
@@ -213,15 +213,19 @@
   }
   .judulhome {
     padding: 1rem 1rem;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5rem;
     text-align: center;
   }
   .link {
     margin-right: none;
   }
-
+  .btn1 {
+    margin-top: 20px;
+    margin-right: 5px;
+  }
   .btn2 {
+    margin-top: 20px;
     margin-left: 0;
   }
 
