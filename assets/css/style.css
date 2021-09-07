@@ -103,6 +103,39 @@
   margin-right: auto;
   width: 250px;
 }
+
+.visimisi {
+  padding: 3rem 10rem;
+  min-height: 700px;
+  background-color: #fff6f6;
+}
+
+.visimisigambar {
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visimisijudul {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+.judulvisimisi {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #373737;
+}
+
+.ketvisimisi {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  color: #424242;
+}
+
 .footer {
   padding: 4rem 10rem;
   background-color: rgb(196, 8, 33);
@@ -300,5 +333,29 @@
   }
   .ketfooter {
     font-size: 10px;
+  }
+  .visimisi {
+    padding: 1rem 1rem;
+  }
+
+  .visimisigambar {
+    width: 200px;
+  }
+
+  .visimisijudul {
+    padding: 1rem 1rem;
+    font-size: 16.5px;
+  }
+
+  .judulvisimisi {
+    padding: 0 1rem;
+    font-size: 15px;
+  }
+
+  .ketvisimisi {
+    padding: 0 1rem;
+    font-size: 11.5px;
+    line-height: 1.5rem;
+    text-align: justify;
   }
 }
