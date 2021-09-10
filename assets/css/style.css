@@ -107,11 +107,11 @@
 .visimisi {
   padding: 3rem 10rem;
   min-height: 700px;
-  background-color: #fff6f6;
+  background: linear-gradient(#fff, #fff6f6);
 }
 
 .visimisigambar {
-  width: 450px;
+  width: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -124,16 +124,66 @@
   text-align: center;
 }
 .judulvisimisi {
+  margin-top: 5rem;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
   color: #373737;
 }
 
 .ketvisimisi {
+  text-align: justify;
+  line-height: 1.5rem;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 16px;
-  color: #424242;
+  font-size: 14px;
+  color: #5e5e5e;
+}
+
+.produk {
+  padding: 3rem 10rem;
+  min-height: 500px;
+}
+
+.produkgambar {
+  width: 13rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.judulproduk {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ketproduk {
+  margin-top: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.judulhalproduk {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card {
+  width: 20rem;
+  margin-top: 2rem;
+}
+
+.tentang {
+  min-height: 700px;
+  background-color: #ffffff;
+  padding: 1rem 10rem;
+}
+
+.kontak {
+  min-height: 700px;
+  background: radial-gradient(circle at top left, #fff, #fff6f6);
 }
 
 .footer {
@@ -181,7 +231,7 @@
 .icons {
   color: #ffffff;
   padding: 5px 5px;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .icons:hover {
@@ -348,6 +398,7 @@
   }
 
   .judulvisimisi {
+    margin-top: 1rem;
     padding: 0 1rem;
     font-size: 15px;
   }
@@ -357,5 +408,20 @@
     font-size: 11.5px;
     line-height: 1.5rem;
     text-align: justify;
+  }
+
+  .produk {
+    padding: 1rem 1rem;
+  }
+
+  .produkgambar {
+    width: 8rem;
+  }
+
+  .judulproduk {
+    font-size: 13px;
+  }
+  .ketproduk {
+    font-size: 13px;
   }
 }
