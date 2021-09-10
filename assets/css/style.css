@@ -124,7 +124,7 @@
   text-align: center;
 }
 .judulvisimisi {
-  margin-top: 5rem;
+  margin-top: 2rem;
   font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-weight: 500;
@@ -177,8 +177,30 @@
 
 .tentang {
   min-height: 700px;
-  background-color: #ffffff;
+  background: linear-gradient(#fff, #fff6f6);
   padding: 1rem 10rem;
+}
+
+.judultentang {
+  margin-top: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.kettentang {
+  line-height: 1.5rem;
+  margin-top: 2rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  color: #5e5e5e;
+  text-align: justify;
+}
+
+.tentangjumbotron {
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  width: 100%;
 }
 
 .kontak {
@@ -301,7 +323,7 @@
 
 /*scrollbar*/
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 5.5px;
 }
 ::-webkit-scrollbar-thumb {
   background: #cacaca;
@@ -423,5 +445,20 @@
   }
   .ketproduk {
     font-size: 13px;
+  }
+
+  .tentang {
+    padding: 1rem 1rem;
+  }
+
+  .judultentang {
+    font-size: 18px;
+    padding: 0rem 1rem;
+  }
+
+  .kettentang {
+    font-size: 13px;
+    padding: 0rem 1rem;
+    line-height: none;
   }
 }
