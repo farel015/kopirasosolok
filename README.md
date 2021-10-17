@@ -1,4 +1,10 @@
-<h3>tampilan website company profile "kopi raso solok"</h3>
-<br>
-<img src="https://user-images.githubusercontent.com/86312641/137631497-f51f556d-ec37-4157-a833-80f7f2e804ba.png"/>
-<img src="https://user-images.githubusercontent.com/86312641/137631591-99bd903f-1a42-4492-b66e-5d61805aee82.png"/>
+# Kopi raso solok
+
+### Tampilan
+<img src="https://user-images.githubusercontent.com/86312641/137634121-0eb5f3ba-f90c-41f4-94a0-193643a4c02c.png"/>
+<img src="https://user-images.githubusercontent.com/86312641/137634142-7d73c7d1-c216-41e2-90a2-9de7903ad17a.png"/>
+
+### Teknologi
+<li>Html</li>
+<li>Css</li>
+<li>Bootstrap</li>
